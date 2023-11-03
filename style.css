@@ -1,0 +1,146 @@
+body {
+  background-color: #6d02979e !important;
+  margin: auto;
+  padding: 0;
+  font-family: "Playpen Sans", cursive;
+}
+
+header {
+  background-color: #670289fb;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 75px;
+  height: 80px;
+  top: 35px;
+  left: 120px;
+  border-radius: 35%;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  background-color: #778902fb;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.bup {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #263238;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-box {
+  display: flex;
+  margin: 0 auto;
+}
+
+.search-box input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #778902fb;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.scroll-top {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+  border: none;
+  background: #263238;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scroll-top img {
+  width: 30px;
+  height: auto;
+}
+
+.cong {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cong h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cong h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cong p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.picture {
+  width: 1300px;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.picture-container {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.picture:hover .picture-container {
+  opacity: 1;
+}
+.picture-container h3 {
+  text-align: center;
+  margin-left: 15%;
+}
+
+.footer {
+  background-color: #380947;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer ul {
+  display: flex;
+  text-align: center;
+  padding: 15px 0;
+}
+.footer li {
+  margin-right: 20px;
+}
